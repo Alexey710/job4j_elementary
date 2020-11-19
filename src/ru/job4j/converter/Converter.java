@@ -9,7 +9,6 @@ public class Converter {
         String floatToString = decimalFormat.format((float) value / 70);
         floatToString = floatToString.replace(',', '.');
         return  Float.parseFloat(floatToString);
-
     }
 
     public static float rubleToDollar(int value) {
@@ -17,7 +16,6 @@ public class Converter {
         String floatToString = decimalFormat.format((float) value / 60);
         floatToString = floatToString.replace(',', '.');
         return  Float.parseFloat(floatToString);
-
     }
 
     public static void main(String[] args) {
