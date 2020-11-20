@@ -36,4 +36,5 @@ public class X2Test {
         int expected = 1;
         Assert.assertEquals(expected, result);
     }
+
 }
