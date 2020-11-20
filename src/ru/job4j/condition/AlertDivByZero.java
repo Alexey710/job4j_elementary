@@ -13,6 +13,7 @@ public class AlertDivByZero {
         if (result) {
             System.out.println("Could not div by 0.");
         }
+
         if (resultNegative) {
             System.out.println("This is negative numbers");
         }
