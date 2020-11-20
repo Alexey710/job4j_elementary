@@ -20,4 +20,5 @@ public class ConverterTest {
         float out = Converter.rubleToDollar(in);
         Assert.assertEquals(expected, out, 0);
     }
+
 }
