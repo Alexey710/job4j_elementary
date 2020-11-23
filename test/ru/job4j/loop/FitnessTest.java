@@ -8,6 +8,12 @@ import static org.junit.Assert.assertThat;
 
 public class FitnessTest {
     @Test
+    public void whenIvanLessByFewNik3() {
+        int month = Fitness.calc(90, 90);
+        assertThat(month, is(1));
+    }
+
+    @Test
     public void whenIvanGreatNik() {
         int month = Fitness.calc(95, 90);
         assertThat(month, is(0));
