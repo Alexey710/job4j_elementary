@@ -32,6 +32,7 @@ public class MachineTest {
 
     @Test
     public void when100by39() {
+
         Machine machine = new Machine();
         int[] expected = {10, 10, 10, 10, 10, 10, 1};
         int[] rsl = machine.change(100, 39);
