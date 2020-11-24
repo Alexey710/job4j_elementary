@@ -18,20 +18,17 @@ public class Defragment {
     }
 
     public static String[] compress(String[] array) {
-        for (int index = 0; index < array.length; index++) {
-            if (array[index] != null) {
-                int indexNotNull = index;
-                for (int indexNull = 0; indexNull < array.length; indexNull++) {
-                    if (array[indexNull] == null) {
-                        String temp = array[indexNotNull];
-                        array[indexNotNull] = array[indexNull];
-                        array[indexNull] = temp;
+        for (int indexNull = 0; indexNull < array.length; indexNull++) {
+            if (array[indexNull] == null) {
+                for (int indexNotNull = indexNull + 1; indexNotNull < array.length; indexNotNull++) {
+                    if (array[indexNotNull] != null) {
+                        String temp = array[indexNull];
+                        array[indexNull] = array[indexNotNull];
+                        array[indexNotNull] = temp;
+                        break;
                     }
                 }
-
-                /* переместить первую не null ячейку. Нужен цикл. */
             }
-            System.out.print(array[index] + " ");
         }
         return array;
     }
