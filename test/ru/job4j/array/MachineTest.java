@@ -21,4 +21,20 @@ public class MachineTest {
         int[] rsl = machine.change(50, 35);
         assertThat(rsl, is(expected));
     }
+
+    @Test
+    public void when50by39() {
+        Machine machine = new Machine();
+        int[] expected = {10, 1};
+        int[] rsl = machine.change(50, 39);
+        assertThat(rsl, is(expected));
+    }
+
+    @Test
+    public void when100by39() {
+        Machine machine = new Machine();
+        int[] expected = {10, 10, 10, 10, 10, 10, 1};
+        int[] rsl = machine.change(100, 39);
+        assertThat(rsl, is(expected));
+    }
 }
