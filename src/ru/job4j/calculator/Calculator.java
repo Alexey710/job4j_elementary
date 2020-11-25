@@ -7,12 +7,12 @@ public class Calculator {
         int six = 6;
         int four = 4;
         int five = 5;
-        float sixDivTwo = (float) six / two;
-        int fiveMinusTwo = five - two;
-        long fourTimeTwo = four * two;
-        System.out.println(sixDivTwo);
-        System.out.println(fiveMinusTwo);
-        System.out.println(fourTimeTwo);
+        float divide = (float) six / two;
+        int minus = five - two;
+        long multiple = four * two;
+        System.out.println(divide);
+        System.out.println(minus);
+        System.out.println(multiple);
 
     }
 }

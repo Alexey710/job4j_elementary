@@ -6,16 +6,16 @@ public class Converter {
 
     public static float rubleToEuro(int value) {
         DecimalFormat decimalFormat = new DecimalFormat("#.##");
-        String floatToString = decimalFormat.format((float) value / 70);
-        floatToString = floatToString.replace(',', '.');
-        return  Float.parseFloat(floatToString);
+        String point = decimalFormat.format((float) value / 70);
+        point = point.replace(',', '.');
+        return  Float.parseFloat(point);
     }
 
     public static float rubleToDollar(int value) {
         DecimalFormat decimalFormat = new DecimalFormat("#.##");
-        String floatToString = decimalFormat.format((float) value / 60);
-        floatToString = floatToString.replace(',', '.');
-        return  Float.parseFloat(floatToString);
+        String point = decimalFormat.format((float) value / 60);
+        point = point.replace(',', '.');
+        return  Float.parseFloat(point);
     }
 
     public static void main(String[] args) {

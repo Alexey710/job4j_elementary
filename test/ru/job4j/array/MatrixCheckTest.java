@@ -13,7 +13,7 @@ public class MatrixCheckTest {
                 {'X', 'X', 'X'},
                 {' ', ' ', ' '},
         };
-        boolean result = MatrixCheck.monoHorizontal(input, 1);
+        boolean result = MatrixCheck.horizontal(input, 1);
         assertThat(result, is(true));
     }
 
@@ -24,7 +24,7 @@ public class MatrixCheckTest {
                 {' ', ' ', ' '},
                 {'X', 'X', 'X'},
         };
-        boolean result = MatrixCheck.monoHorizontal(input, 2);
+        boolean result = MatrixCheck.horizontal(input, 2);
         assertThat(result, is(true));
     }
 
@@ -35,7 +35,7 @@ public class MatrixCheckTest {
                 {' ', ' ', 'X'},
                 {' ', ' ', 'X'},
         };
-        boolean result = MatrixCheck.monoVertical(input, 2);
+        boolean result = MatrixCheck.vertical(input, 2);
         assertThat(result, is(true));
     }
 
@@ -46,7 +46,7 @@ public class MatrixCheckTest {
                 {'X', ' ', ' '},
                 {'X', ' ', ' '},
         };
-        boolean result = MatrixCheck.monoVertical(input, 0);
+        boolean result = MatrixCheck.vertical(input, 0);
         assertThat(result, is(true));
     }
 
@@ -57,7 +57,7 @@ public class MatrixCheckTest {
                 {' ', ' ', ' '},
                 {'X', ' ', ' '},
         };
-        boolean result = MatrixCheck.monoVertical(input, 0);
+        boolean result = MatrixCheck.vertical(input, 0);
         assertThat(result, is(false));
     }
 
