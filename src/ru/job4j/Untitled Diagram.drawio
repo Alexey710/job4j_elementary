@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2020-11-25T10:45:20.505Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.114 YaBrowser/20.11.1.97 Yowser/2.5 Safari/537.36" etag="w2GUf_T-sdie4-BShi6F" version="13.10.2" type="github">
+  <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
+    <mxGraphModel dx="868" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fwq0M9gHpzqw-vBs6o3f-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7a84cebc1def654-2" target="7a84cebc1def654-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7a84cebc1def654-2" value="ПОВАР - Делает заказ курьеру на покупку продуктов. готовит еду на доставку и для закусочной, отдает заказ курьеру на доставку. Отдает заказ посетителям закусочной.&amp;nbsp;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="370" y="160" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7a84cebc1def654-3" value="УБОРЩИЦА - убирает помещение" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="980" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fwq0M9gHpzqw-vBs6o3f-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7a84cebc1def654-8" target="7a84cebc1def654-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7a84cebc1def654-8" value="клиент" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="675" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7a84cebc1def654-12" value="КУРЬЕР - доставляет продуткты на кухню и развозит готовые заказы" style="html=1;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="890" y="195" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fwq0M9gHpzqw-vBs6o3f-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7a84cebc1def654-29" target="7a84cebc1def654-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fwq0M9gHpzqw-vBs6o3f-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7a84cebc1def654-29" target="7a84cebc1def654-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fwq0M9gHpzqw-vBs6o3f-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7a84cebc1def654-29" target="7a84cebc1def654-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7a84cebc1def654-29" value="АДМИНИСТРАТОР - принимает заказы ONLINE&amp;nbsp;&lt;br&gt;и оплату от клиентов&amp;nbsp; в закусочной. Дает задание и выдает деньги ПОВАРУ, КУРЬЕРУ, УБОРЩИЦЕ.&amp;nbsp;" style="html=1;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="360" width="190" height="125" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
