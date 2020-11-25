@@ -9,10 +9,10 @@ public class Calculator {
         int five = 5;
         float divide = (float) six / two;
         int minus = five - two;
-        long multiple = four * two;
+        long multi = four * two;
         System.out.println(divide);
         System.out.println(minus);
-        System.out.println(multiple);
+        System.out.println(multi);
 
     }
 }
