@@ -19,6 +19,18 @@ public class MaxTest {
 
     @Test
     public void when4And4Max4() {
+
         Assert.assertThat(Max.max(4, 4), is(4));
+    }
+
+    @Test
+    public void when3Max4() {
+
+        Assert.assertThat(Max.max(4, 3, 2), is(4));
+    }
+
+    @Test
+    public void when4Max5() {
+        Assert.assertThat(Max.max(4, 3, 2, 5), is(5));
     }
 }
