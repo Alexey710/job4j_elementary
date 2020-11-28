@@ -6,10 +6,8 @@ public class ShopDrop {
         for (int i = index; i < products.length; i++) {
             if (i - 1 >= 0) {
                 products[i - 1] = products[i];
-                products[i] = null;
-            } else {
-                products[i] = null;
             }
+            products[i] = null;
         }
         return products;
     }
