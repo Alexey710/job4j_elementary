@@ -1,7 +1,15 @@
 package ru.job4j.oop;
 
 public class Battery {
-    int load;
+    private int load;
+
+    public int getLoad() {
+        return load;
+    }
+
+    public void setLoad(int load) {
+        this.load = load;
+    }
 
     public Battery(int load) {
         this.load = load;
