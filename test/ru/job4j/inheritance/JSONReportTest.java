@@ -9,7 +9,11 @@ public class JSONReportTest {
 
     @Test
     public void generate() {
-        String expected = "{\n name" + System.lineSeparator() + " : " + "name" + ",\n" + "body" + " : " + "body" + "}";
+        String expected = "{" + System.lineSeparator()
+                + "\"" + "name" + "\"" + " : " + "\"" + "name" + "\"" + ","
+                + System.lineSeparator()
+                + "\"" + "body" + "\"" + " : " + "\"" + "body" + "\""
+                + System.lineSeparator() + "}";
         String out = new JSONReport().generate("name", "body");
         Assert.assertThat(out, is(expected));
     }
