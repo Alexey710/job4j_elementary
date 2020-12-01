@@ -18,11 +18,8 @@ public class Matches {
                 matches = matches - move;
                 count++;
                 System.out.println("Remainder of matches is " + matches);
-                if (matches <= 0) {
-                    show = count % 2 != 0 ? "Win player 1." : "Win player 2.";
-                    System.out.println(show);
-                }
             }
         }
+        System.out.println(count % 2 != 0 ? "Win player 1." : "Win player 2.");
     }
 }
