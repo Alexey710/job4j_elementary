@@ -12,6 +12,7 @@ public class BatteryTest {
         Battery first = new Battery(100);
         Battery second = new Battery(50);
         first.exchange(second);
-        Assert.assertThat(first.getLoad(), is(150));
+        Assert.assertThat(first.getLoad(), is(0));
+        Assert.assertThat(second.getLoad(), is(150));
     }
 }
