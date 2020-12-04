@@ -17,7 +17,7 @@ public class UserStore {
     }
 
     public static boolean validate(User user) throws UserInvalidException {
-            if (!user.isValid()) {
+            if (!user.isValid() || user.getUsername().length() < 3) {
                 throw new UserInvalidException("User's name is invalid.");
             }
         return true;
@@ -25,10 +25,10 @@ public class UserStore {
 
     public static void main(String[] args) {
         User[] users = {
-                new User("Yhoo", true)
+                new User("Yo", true)
         };
         try {
-            User user = findUser(users, "Yhoo");
+            User user = findUser(users, "Yo");
             if (validate(user)) {
                 System.out.println("This user has an access");
             }

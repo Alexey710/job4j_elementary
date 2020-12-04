@@ -14,10 +14,7 @@ public class User {
         return username;
     }
 
-    public boolean isValid() throws UserInvalidException {
-        if (username.length() < 3) {
-            throw new UserInvalidException("User's name is invalid.");
-        }
-        return true;
+    public boolean isValid() {
+        return valid;
     }
 }
